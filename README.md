@@ -2,7 +2,7 @@
 
 > An interactive, 4-page Power BI dashboard that tracks delivery performance, hub capacity, driver quality and fleet health for a logistics company.
 
-![Dashboard Preview](Images\screenshots\01-overview.png)
+![Dashboard Preview](Images/screenshots/01-overview.png)
 
 
 ---
@@ -29,7 +29,7 @@ Management had no single view of how the delivery network performs. They needed 
 
 ## Dataset
 
-Four CSV files (free to download from the video description: `[add your download link]`):
+Four CSV files 
 
 | Table | Role | Description |
 |-------|------|-------------|
@@ -171,7 +171,7 @@ Other items: `Number of Hubs / Drivers / Vehicles` (count of IDs), dynamic text 
 The report has **4 interactive pages**. Every page has **Year** and **Month** slicers and a left navigation panel.
 
 ### Page 1: Overview (landing page)
-![Overview](C:\Users\amitg\OneDrive\Documents\Kajal\PROJECTS\SwiftRoute-Logistics-Dashboard\Images\screenshots\01-overview.png)
+![Overview](Images/screenshots/01-overview.png)
 
 | Section | Visual | Type |
 |---------|--------|------|
@@ -188,7 +188,7 @@ The report has **4 interactive pages**. Every page has **Year** and **Month** sl
 | Filters | Year, Month, "Month Year" label | **Drop-down slicers**, **dynamic text** |
 
 ### Page 2: Hubs Overview
-![Hubs](Images\screenshots\02-hub-overview.png)
+![Hubs](Images/screenshots/02-hub-overview.png)
 
 | Visual | Type |
 |--------|------|
@@ -199,7 +199,7 @@ The report has **4 interactive pages**. Every page has **Year** and **Month** sl
 | Average hours by weekday and by hub | **Column and bar charts** with gradient colours and tooltips |
 
 ### Page 3: Drivers Overview
-![Drivers](Images\screenshots\03-driver-overview.png)
+![Drivers](Images/screenshots/03-driver-overview.png)
 
 | Visual | Type |
 |--------|------|
@@ -210,7 +210,7 @@ The report has **4 interactive pages**. Every page has **Year** and **Month** sl
 | Monthly Trend of Orders (switchable to On-Time Delivery Rate) | **Area** driven by a **field parameter** |
 
 ### Page 4: Vehicles Overview
-![Vehicles](Images\screenshots\04-vehicle-overview.png)
+![Vehicles](Images/screenshots/04-vehicle-overview.png)
 
 | Visual | Type |
 |--------|------|
@@ -272,7 +272,7 @@ This project shows how a well-designed **star schema**, a proper **date table** 
 **Option A: Open the finished report**
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/<your-username>/SwiftRoute-Logistics-Dashboard.git
+   git clone https://github.com/KajalGupta-tech/swiftRoute-logistics-dashboard.git
    ```
 2. Open `SwiftRoute_Dashboard.pbix` in Power BI Desktop.
 3. If Power BI shows a data-source error: **Home → Transform data → Data source settings → Change Source**, and point each table to the matching CSV in the `data/` folder.
@@ -293,7 +293,7 @@ SwiftRoute-Logistics-Dashboard/
 ├── data/          # Orders, Hubs, Drivers, Vehicles CSVs
 └── Business_Requirements.docx
 └── images
-    ├── dashboard_snapshots/
+    ├── screenshots/   # dashboard overviews images
     └── png-images/    # flaticons images
 ```
 
