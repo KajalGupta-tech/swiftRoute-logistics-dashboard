@@ -304,7 +304,7 @@ SwiftRoute-Logistics-Dashboard/
 **Kajal Gupta**
 *Data Analyst | Power BI · DAX · SQL · Excel*
 
-- 📧 Email: [projects.kajalgupta@example.com](mailto:projects.kajalgupta@example.com)
+- 📧 Email: [projects.kajalgupta@gmail.com](mailto:projects.kajalgupta@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/kajalgupta19](https://linkedin.com/in/kajalgupta19)
 - 🐙 GitHub: [github.com/kajalgupta-tech](https://github.com/kajalgupta-tech)
 - 🌐 Portfolio: [https://kajalgupta-tech.github.io/](https://kajalgupta-tech.github.io/)
